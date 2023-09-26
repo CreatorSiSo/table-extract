@@ -60,6 +60,7 @@
 //! [`Table::find_by_id`]: struct.Table.html#method.find_by_id
 //! [`Table::find_by_headers`]: struct.Table.html#method.find_by_headers
 
+pub use scraper;
 use scraper::element_ref::ElementRef;
 use scraper::{Html, Selector};
 use std::collections::HashMap;
